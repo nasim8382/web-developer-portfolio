@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -42,4 +43,28 @@ nav a{
     border: none;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* header related styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 30px 200px;
+}
+
+.banner-greetings{
+    color: #474747;
+}
+
+.banner-title{
+    color: #181818;
+}
+
+.banner-text{
+    color: #757575;
 }
