@@ -1,0 +1,45 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.orange-color{
+    color: #FD6E0A;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.primary-btn{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
