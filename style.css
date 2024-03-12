@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -8,6 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    padding-top: 60px;
 }
 
 .nav-title{
@@ -49,22 +55,39 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin: 30px 30px 30px 200px;
+    padding: 30px 30px 0 200px;
 }
 
-.banner-greetings{
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greeting{
     color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 .banner-title{
     color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .banner-text{
     color: #757575;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
